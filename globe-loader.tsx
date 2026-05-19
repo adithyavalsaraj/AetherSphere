@@ -55,9 +55,16 @@ export default function GlobeLoader({
       const scale = 0.5 + (z + 1) * 0.25 // Scale from 0.5 to 1
       const opacity = 0.4 + (z + 1) * 0.3 // Opacity from 0.4 to 1
 
-      // Random initial scattered position
-      const initialX = center + (Math.random() - 0.5) * size * 1.5
-      const initialY = center + (Math.random() - 0.5) * size * 1.5
+      // Deterministic pseudo-random starting positions to prevent SSR hydration mismatch
+      const pseudoRandom = (seed: number) => {
+        const x = Math.sin(seed) * 10000
+        return x - Math.floor(x)
+      }
+      const randomValX = pseudoRandom(i * 12.9898 + 4.321)
+      const randomValY = pseudoRandom(i * 78.233 + 7.654)
+
+      const initialX = center + (randomValX - 0.5) * size * 1.5
+      const initialY = center + (randomValY - 0.5) * size * 1.5
 
       particleArray.push({
         id: i,
