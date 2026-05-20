@@ -36,8 +36,8 @@ Follow these steps to run the interactive sandbox locally:
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/adithyavalsaraj/sphere-loader.git
-cd sphere-loader
+git clone https://github.com/adithyavalsaraj/AetherSphere.git
+cd AetherSphere
 npm install
 ```
 
