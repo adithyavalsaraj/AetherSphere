@@ -4,9 +4,12 @@
 [![React 19](https://img.shields.io/badge/Library-React%2019-blue?style=for-the-badge&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%20CSS%203-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://aethersphere-studio.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 **AetherSphere Studio** is a state-of-the-art interactive 3D mathematical particle system and loading canvas playground. Built with Next.js, React 19, and SVG rendering, it delivers highly performant, customizable 3D coordinate convergence, orbital mechanics, and fluid pointer-gravitation physics directly in the browser.
+
+🔗 **Live Demo:** [https://aethersphere-studio.vercel.app](https://aethersphere-studio.vercel.app)
 
 ---
 
