@@ -111,11 +111,15 @@ export default function MyPage() {
 | `pulseIntensity` | `number` | `0.5` | Amplification scale of the pulse waves. |
 | `interactive` | `boolean` | `true` | Enables pointer grab dragging and 3D rotation. |
 | `enableGravity` | `boolean` | `true` | Enables cursor field physics distortion inside SVG coordinate bounds. |
+| `enableClickBurst` | `boolean` | `true` | Enables/disables particle explosion/burst animation on click. |
+| `autoRotate` | `boolean` | `true` | Enables/disables automatic 3D spherical coordinate rotation. |
+| `rotationSpeed` | `number` | `0.4` | Rotation speed multiplier for automatic spherical motion. |
 | `gravityMode` | `"repel" \| "attract" \| "swirl"` | `"repel"` | Style of cursor-gravity field (push away, pull in, or orbit). |
 | `particleShape` | `"dots" \| "crosshairs" \| "squares" \| "rings"` | `"dots"` | Geometric shape rendered at active node coordinates. |
 | `explosionStyle` | `"supernova" \| "singularity" \| "vortex"` | `"supernova"` | Physics motion of click-burst expansion/implosion animations. |
 | `chromaCycle` | `boolean` | `false` | Time-based HSL multi-color flow morphing over time. |
 | `enableGlow` | `boolean` | `true` | Applies SVG `<feGaussianBlur>` bloom filters to components. |
+| `className` | `string` | `""` | Custom CSS class names to apply to the root wrapping element. |
 
 ---
 
